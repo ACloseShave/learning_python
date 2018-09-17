@@ -1,0 +1,64 @@
+###################################
+###################################
+##--Practicing with Pseudocode---##
+##--to create a code workflow----##
+##--and learn code planning and--##
+##--how changes occur between----##
+##--the original design and the--##
+##--code's final product state---##
+###################################
+###################################
+
+
+#Preparing variables and data types
+Store variable “kilometer” conversion rate
+Store variable “celsius" conversion rate
+Store variable “liters” conversion rate
+Store variable “kilograms” conversion rate
+Store variable “centimeters” conversion rate
+
+
+#Converting mi. to km.
+Print “Hello! Enter miles to convert to kilometers:”
+Gather input from user
+Store input in variable
+Use multiplication to change “miles” to “kilometers”
+Convert string to float
+Print “input miles” is equal to “calculated kilometers.”
+
+
+#Converting F to C
+Print “Thanks! Now enter the degrees Farenheit to convert to Celsius:”
+Gather input from user
+Store input in variable
+Use multiplication to change “farenheit” to “celsius”
+Convert string to float
+Print ‘“input Farenheit” degrees is equal to “calculated Celsius” degrees.’
+
+
+#Converting gal. to L
+Print “Okay, now enter gallons to convert to liters:”
+Gather input from user
+Store input in variable
+Use multiplication to change “gallons” to “liters”
+Convert string to float
+Print “input gallons” is equal to “calculated liters.”
+
+
+#Converting lb to kg
+Print “Next, type the number of pounds to convert to kilograms:”
+Gather input from user
+Store input in variable
+Use multiplication to change “pounds” to “kilograms”
+Convert string to float
+Print “input pounds” is equal to “calculated kilograms.”
+
+
+#Converting in. to cm.
+Print “Finally, give me the number of inches to convert to centimeters:”
+Gather input from user
+Store input in variable
+Use multiplication to change “inches” to “centimeters”
+Convert string to float
+Print “input inches” is equal to “calculated centimeters.”
+
