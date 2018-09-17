@@ -1,0 +1,36 @@
+#Preparing Variables and data types
+
+#km_convert = miles * 1.6
+miles = input("Hello! Please enter miles to convert to kilometers: ")
+miles = float(miles)
+kilometers = miles * 1.6
+print("That is ", kilometers, "kilometers!")  #Concatenation in Python is weird
+
+
+#celsius_convert = (farenheit - 32) * (5/9)
+faren = input("Thanks! Now enter the degrees Farenheit to convert to Celsius: ")
+faren = int(faren)
+celsius = (faren - 32) * (5/9)
+print("That is ", celsius, "degrees Celsius!")
+
+
+#liter_convert = gallons * 3.9
+gallons = input("Great! Now, how many gallons shall we convert to liters? ")
+gallons = float(gallons)
+liters = gallons * 3.9
+print("That is ", liters, "liters!")
+
+
+#kg_convert = pounds * .45
+pounds = input("Next, tell me how many pounds to convert to kilograms: ")
+pounds = float(pounds)
+kilograms = pounds * .45
+print("That is ", kilograms, "kilograms!")
+
+
+#cm_convert = inch * 2.54
+inches = input("Finally, enter how many inches to convert to centimeters: ")
+inches = float(inches)
+centi = inches * 2.54
+print("That is ", centi, "centimeters!")
+
