@@ -57,6 +57,7 @@ if months_employed < 3:
     else:
         commission = .35
 elif 3 < months_employed < 60:
+    bonus_rate_final = 0
     if sales_amount_in_dollars < 10000:
         commission = 0
         commission = int(commission)
@@ -79,6 +80,26 @@ elif 3 < months_employed < 60:
         bonus_rate_initial = 100000
 else:
     bonus_rate_final = bonus_rate_initial + 1000
+    if sales_amount_in_dollars < 10000:
+        commission = 0
+        commission = int(commission)
+        bonus_rate_initial = 0
+    elif 10000 <= sales_amount_in_dollars <= 100000:
+        commission = 0.02
+        commission = float(commission)
+        bonus_rate_initial = 0
+    elif 100001 <= sales_amount_in_dollars <= 500000:
+        commission = 0.15
+        commission = float(commission)
+        bonus_rate_initial = 1000
+    elif 500001 <= sales_amount_in_dollars <= 1000000:
+        commission = 0.28
+        commission = float(commission)
+        bonus_rate_initial = 5000
+    elif sales_amount_in_dollars > 1000001:
+        commission = 0.35
+        commission = float(commission)
+        bonus_rate_initial = 100000
 
 
 ########################
