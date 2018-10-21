@@ -75,7 +75,7 @@ while limit > 0:
 	else:
 		kilograms = pounds * .45
 		print("That is", format(kilograms,'.2f'), "kilograms, cousin!")
-		limit -= 1
+		limit = 0
 
 
 
