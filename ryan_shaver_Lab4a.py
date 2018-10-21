@@ -22,7 +22,7 @@ limit = 0
 while limit < 3:
 	miles = float(input("How many miles do you want converted to kilometers? "))
 	if miles < 0:
-		print("Try again.")
+		print("Try again, this time without negatives.")
 		limit += 1
 	else:
 		kilometers = miles * 1.6
@@ -85,7 +85,7 @@ while limit > 0:
 while limit > 0:
 	inches = float(input("Finally, how many inches do you want converted to centimeters? "))
 	if inches < 0:
-		print("Error: ...is this some kind of game to you? POSITIVE numbers, Mark!")
+		print("...is this some kind of game to you? POSITIVE numbers, Mark!")
 		limit += 1
 	else:
 		centlimit = inches * 2.54
